@@ -1,0 +1,29 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+int magnitude;
+	cout << " Please Enter The Magnitude Of The Earthquake " << endl;
+	cin >> magnitude;
+	if (magnitude < 2) {
+		cout << " Micro Earthquake " << endl;
+	}if ((( magnitude == 2 ) || magnitude > 2 ) && magnitude < 3 ) {
+		cout << " Very Minor Earthquake " << endl;
+	} if ((( magnitude == 3 ) || magnitude > 3 ) && magnitude < 4 ) {
+		cout << " Minor Earthquake " << endl;
+	} if ((( magnitude == 4 ) || magnitude > 4 ) && magnitude < 5 ) {
+		cout << " Light Earthquake " << endl;
+	} if ((( magnitude == 5 ) || magnitude > 5 ) && magnitude < 6 ) {
+		cout << " Moderate Earthquake " << endl;
+	} if ((( magnitude == 6 ) || magnitude > 6 ) && magnitude < 7 ) {
+		cout << " Strong Earthquake " << endl;
+	} if ((( magnitude == 7 ) || magnitude > 7 ) && magnitude < 8 ) {
+		cout << " Major Earthquake " << endl;
+	} if ((( magnitude == 8 ) || magnitude > 8 ) && magnitude < 10 ) {
+		cout << " Great Earthquake " << endl;
+	} if ((magnitude == 10) || magnitude > 10) {
+		cout << " Meteoric Earthquake Hide In A Doomsday Bunker " << endl;
+	}
+  }
